@@ -1,0 +1,109 @@
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Build outputs
+build/
+dist/
+out/
+
+# Hardhat files
+cache/
+artifacts/
+
+# Environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Debug logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+
+# Testing
+coverage/
+
+# Miscellaneous
+.cache/
+.temp/
+
+# TypeScript
+*.tsbuildinfo
+
+# Next.js
+.next/
+
+# Hardhat
+typechain/
+
+# Solidity coverage
+coverage.json
+
+# Truffle
+.truffle-solidity-loader
+build/contracts
+
+# OpenZeppelin
+.openzeppelin/dev-*.json
+.openzeppelin/.session
+
+# Ethers.js
+ethers-contracts/
+
+# Production
+/build
+
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+
+# parcel-bundler cache (https://parceljs.org/)
+.cache
+.parcel-cache
+
+# Gatsby files
+.cache/
+public
+
+# Mac files
+.DS_Store
+
+# Windows files
+Thumbs.db
+
+# Hardhat
+hardhat.config.js

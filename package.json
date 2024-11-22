@@ -1,0 +1,24 @@
+{
+    "name": "energy-trading-app",
+    "version": "1.0.0",
+    "description": "A full-stack decentralized application for energy trading using blockchain technology",
+    
+    "scripts": {
+    "install": "npm run install:smart-contracts && npm run install:backend && npm run install:frontend",
+    "install:smart-contracts": "cd smart-contracts && npm install",
+    "install:backend": "cd backend && npm install",
+    "install:frontend": "cd frontend && npm install",
+    "start": "concurrently \"npm run start:backend\" \"npm run start:frontend\"",
+    "start:backend": "cd backend && npm start",
+    "start:frontend": "cd frontend && npm start",
+    "deploy": "cd smart-contracts && npx hardhat run scripts/deploy.js --network goerli"
+    },
+
+    "keywords": ["blockchain", "energy trading", "ethereum", "react", "node"],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+    "concurrently": "^6.2.0"
+    }
+
+}  
